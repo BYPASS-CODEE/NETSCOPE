@@ -1,14 +1,14 @@
 <!-- ══════════════════════════════ NETSCOPE X ══════════════════════════════ -->
 
-```ansi
-[36m╔════════════════════════════════════════════════════════════════════════════╗
-[36m║ [1;97m███╗   ██╗███████╗████████╗███████╗ ██████╗ ██████╗ ██████╗ ███████╗[0m[36m ║
-[36m║ [1;97m████╗  ██║██╔════╝╚══██╔══╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝[0m[36m ║
-[36m║ [1;97m██╔██╗ ██║█████╗     ██║   ███████╗██║   ██║██████╔╝██████╔╝█████╗  [0m[36m ║
-[36m║ [1;97m██║╚██╗██║██╔══╝     ██║   ╚════██║██║   ██║██╔═══╝ ██╔═══╝ ██╔══╝  [0m[36m ║
-[36m║ [1;97m██║ ╚████║███████╗   ██║   ███████║╚██████╔╝██║     ██║     ███████╗[0m[36m ║
-[36m║ [1;97m╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝     ╚═╝     ╚══════╝[0m[36m ║
-[36m╚════════════════════════════════════════════════════════════════════════════╝[0m
+```
+╔══════════════════════════════════════════════════════════════════════════╗
+║ ███╗   ██╗███████╗████████╗███████╗ ██████╗ ██████╗ ██████╗ ███████╗ ║
+║ ████╗  ██║██╔════╝╚══██╔══╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝  ║
+║ ██╔██╗ ██║█████╗     ██║   ███████╗██║   ██║██████╔╝██████╔╝█████╗   ║
+║ ██║╚██╗██║██╔══╝     ██║   ╚════██║██║   ██║██╔═══╝ ██╔═══╝ ██╔══╝   ║
+║ ██║ ╚████║███████╗   ██║   ███████║╚██████╔╝██║     ██║     ███████╗ ║
+║ ╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝     ╚═╝     ╚══════╝ ║
+╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
 <p align="center">
@@ -29,10 +29,10 @@
 
 <br/>
 
-```ansi
-[36m┌──(root@netscope)-[~]─────────────────────────────────────────────────────────┐
-[36m│ [1;97mcat /etc/netscope/about[0m[36m                                                              │
-[36m└──────────────────────────────────────────────────────────────────────────────┘[0m
+```
+┌──(root@netscope)-[~]───────────────────────────────────────────────┐
+│ cat /etc/netscope/about                                            │
+└────────────────────────────────────────────────────────────────────┘
 ```
 
 <table>
@@ -105,11 +105,11 @@ creed:
 | ⟦ capability ⟧ | ⟦ details ⟧ |
 |:--|:--|
 | 🖥 **Live Discovery** | full local /24 ICMP reachability sweep with 64 concurrent workers |
-| 📡 **ARP Intelligence** | parses the OS ARP cache (`arp -a`) to map IPs → MACs instantly |
+| 📡 **ARP Intelligence** | parses the OS ARP cache (`arp -a`) to map IPs → MACs instantly, zero packets sent |
 | 🏭 **Vendor Fingerprint** | OUI lookup table — Apple · Samsung · Xiaomi · Huawei · TP-Link · Cisco · Intel · VMware · VirtualBox · Raspberry Pi … |
 | 🚪 **Port Engine** | conservative TCP connect scan of 26 common ports (SSH, HTTP, SMB, RDP, VNC, MQTT, ADB …) with 280 ms per-port timeout |
 | 🧭 **Device Classification** | estimates device type from vendor + hostname: iOS, Android, Windows PC, macOS, Printer, Network device, Linux SBC |
-| ⏱ **Latency Meter** | per-device ping RTT in milliseconds, refreshed every scan |
+| ⏱ **Latency Meter** | per-device ping RTT in milliseconds, refreshed on every scan |
 | 📊 **Live Dashboard** | Rich TUI: network status · device inventory · port results · device intelligence · control center |
 | 📤 **JSON Export** | one-key full report → `netscope_report_<timestamp>.json` |
 | 🔁 **Auto-Refresh** | re-scan anytime from the menu; all results persist in the session |
@@ -119,7 +119,7 @@ creed:
 
 <div align="center">
 
-### ⟨ ./dashboard_preview --screenshot ⟩
+### ⟨ ./dashboard_preview --ascii ⟩
 
 </div>
 
@@ -337,6 +337,25 @@ netscope-x/
 
 <div align="center">
 
+### ⟨ ./system_monitor ⟩
+
+</div>
+
+```text
+┌─ SYSTEM MONITOR ─────────────────────────────────────────────────┐
+│  session       active · since 15:30:42                           │
+│  network       192.168.1.0/24 · gateway 192.168.1.1              │
+│  devices       14 discovered · 26 common ports each              │
+│  reports       3 exported · JSON format                          │
+│  dependencies  python 3.8+ · rich only                           │
+│  footprint     passive ARP + ICMP · no packets forged            │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+<div align="center">
+
 ### ⟨ ./contributing --guide ⟩
 
 </div>
@@ -347,6 +366,20 @@ PRs, bug reports and ideas are welcome. Keep the single-file spirit alive:
 - conservative, non-intrusive scanning only
 - Windows-first with graceful fallbacks on Linux/macOS
 - document every new feature in the README
+
+---
+
+<div align="center">
+
+### ⟨ ./github --setup ⟩
+
+</div>
+
+| field | value |
+|:--|:--|
+| **Repository name** | `NETSCOPE-X` |
+| **Description** | Advanced terminal LAN discovery dashboard — ARP + ICMP /24 sweep, vendor fingerprinting, TCP port scan, live Rich TUI. Authorized networks only. |
+| **Topics** | `python` · `network-scanner` · `lan-discovery` · `arp` · `network-diagnostics` · `rich-terminal` · `cybersecurity` · `port-scan` · `recon` · `tui` |
 
 ---
 
@@ -368,17 +401,6 @@ PRs, bug reports and ideas are welcome. Keep the single-file spirit alive:
 <sub align="center">Replace the placeholder links above with your own profiles before publishing.</sub>
 
 ---
-
-<details>
-<summary><b>📦 GitHub repository setup — copy & paste</b></summary>
-
-| field | value |
-|:--|:--|
-| **Repository name** | `NETSCOPE-X` |
-| **Description** | Advanced terminal LAN discovery dashboard — ARP + ICMP /24 sweep, vendor fingerprinting, TCP port scan, live Rich TUI. Authorized networks only. |
-| **Topics** | `python` · `network-scanner` · `lan-discovery` · `arp` · `network-diagnostics` · `rich-terminal` · `cybersecurity` · `port-scan` · `recon` · `tui` |
-
-</details>
 
 <div align="center">
 
