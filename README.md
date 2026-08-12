@@ -1,35 +1,38 @@
-<!-- ═══════════════════════════ NETSCOPE X ═══════════════════════════ -->
+<!-- ══════════════════════════════ NETSCOPE X ══════════════════════════════ -->
+
+```ansi
+[36m╔════════════════════════════════════════════════════════════════════════════╗
+[36m║ [1;97m███╗   ██╗███████╗████████╗███████╗ ██████╗ ██████╗ ██████╗ ███████╗[0m[36m ║
+[36m║ [1;97m████╗  ██║██╔════╝╚══██╔══╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝[0m[36m ║
+[36m║ [1;97m██╔██╗ ██║█████╗     ██║   ███████╗██║   ██║██████╔╝██████╔╝█████╗  [0m[36m ║
+[36m║ [1;97m██║╚██╗██║██╔══╝     ██║   ╚════██║██║   ██║██╔═══╝ ██╔═══╝ ██╔══╝  [0m[36m ║
+[36m║ [1;97m██║ ╚████║███████╗   ██║   ███████║╚██████╔╝██║     ██║     ███████╗[0m[36m ║
+[36m║ [1;97m╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝     ╚═╝     ╚══════╝[0m[36m ║
+[36m╚════════════════════════════════════════════════════════════════════════════╝[0m
+```
+
+<p align="center">
+  <b style="color:#00E5FF;font-family:monospace;">ADVANCED LAN INTELLIGENCE · TERMINAL DISCOVERY DASHBOARD</b><br/>
+  <sub>One file · No C2 · No bloat — Know your network before it knows you.</sub>
+</p>
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:00131f,100:00E5FF&height=240&section=header&text=NETSCOPE%20X&fontSize=52&fontColor=00E5FF&animation=fadeIn&fontAlignY=38&desc=%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0%20%20LAN%20DISCOVERY%20%2F%20NETWORK%20DIAGNOSTICS%20%20%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0&descAlignY=60&descSize=15" width="100%"/>
+<img src="https://img.shields.io/badge/PYTHON-3.8%2B-7D4698?style=for-the-badge&logo=python&logoColor=00E5FF&labelColor=0D0D0D" />
+<img src="https://img.shields.io/badge/RICH_TUI-00E5FF?style=for-the-badge&logo=python&logoColor=000000&labelColor=0D0D0D" />
+<img src="https://img.shields.io/badge/WINDOWS_FIRST-15E0C5?style=for-the-badge&logo=windows&logoColor=00E5FF&labelColor=0D0D0D" />
+<img src="https://img.shields.io/badge/SINGLE_FILE-003B57?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=0D0D0D" />
+<img src="https://img.shields.io/badge/TCP_CONNECT-2CA5E0?style=for-the-badge&logo=socketdotio&logoColor=00E5FF&labelColor=0D0D0D" />
+<img src="https://img.shields.io/badge/LICENSE-MIT-00E5FF?style=for-the-badge&labelColor=0D0D0D" />
 
-</div>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=820&height=55&lines=root%40netscope%3A~%23+python+netscope_x.py...;Sweeping+local+%2F24+%E2%80%94+254+hosts+queued...;ARP+cache+parsed+%E2%80%94+14+devices+found...;Gateway+locked+%E2%80%94+192.168.1.1...;Vendor+fingerprints+resolved+%E2%80%94+11%2F14+identified...;Port+engine+online+%E2%80%94+28+common+TCP+services...;Report+exported+%E2%80%94+netscope_report_20260812_153000.json...;Know+your+network+before+it+knows+you.;Authorized+use+only.+Always.;root%40netscope%3A~%23+session+online_" alt="Typing SVG" />
-
-<br/><br/>
-
-<a href="https://t.me/your_handle"><img src="https://img.shields.io/badge/TELEGRAM-00E5FF?style=for-the-badge&logo=telegram&logoColor=black&label=CHANNEL&labelColor=0d0d0d" /></a>
-<a href="https://github.com/your-username"><img src="https://img.shields.io/badge/GITHUB-0d0d0d?style=for-the-badge&logo=github&logoColor=00E5FF" /></a>
-<a href="https://www.youtube.com/@your-channel"><img src="https://img.shields.io/badge/YOUTUBE-0d0d0d?style=for-the-badge&logo=youtube&logoColor=FF0000" /></a>
-<a href="https://www.instagram.com/your_handle/"><img src="https://img.shields.io/badge/INSTAGRAM-0d0d0d?style=for-the-badge&logo=instagram&logoColor=E4405F" /></a>
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </div>
 
 <br/>
 
 ```ansi
-┌──(root💀netscope)-[~]
-└─# cat /etc/netscope/about  ─────────────────────────────────
+[36m┌──(root@netscope)-[~]─────────────────────────────────────────────────────────┐
+[36m│ [1;97mcat /etc/netscope/about[0m[36m                                                              │
+[36m└──────────────────────────────────────────────────────────────────────────────┘[0m
 ```
 
 <table>
@@ -38,21 +41,22 @@
 
 ```yaml
 system:
-  name:     "NETSCOPE_X"
-  version:  "2.0"
-  role:     "LAN discovery / network diagnostics"
-  engine:   "ARP cache + ICMP + TCP connect"
-  platform: "windows-first · cross-platform"
-  scope:    "local IPv4 /24 only"
-  deps:     "python 3.8+ · rich"
+  name:      "NETSCOPE_X"
+  version:   "2.0"
+  role:      "LAN discovery & network diagnostics"
+  engine:    "ARP cache + ICMP + TCP connect"
+  interface: "Rich-powered terminal UI"
+  platform:  "Windows-first · Linux/macOS compatible"
+  scope:     "local IPv4 /24 only"
+  deps:      "python 3.8+ · rich"
 
 executes:
-  - discovery — passive ARP parse + ICMP sweep of /24
-  - port scan — 28 common TCP services (connect scan)
-  - vendor    — OUI fingerprint lookup (50+ prefixes)
+  - discovery — passive ARP parse + ICMP reachability sweep
+  - port scan — 26 common TCP services (conservative connect scan)
+  - vendor    — OUI fingerprint lookup (44 prefixes / 17 vendors)
   - hostname  — reverse-DNS hints where available
-  - classify  — device type estimation
-  - export    — full JSON report to disk
+  - classify  — device type estimation (8 categories)
+  - export    — timestamped JSON report to disk
 
 creed:
   "know your network before it knows you."
@@ -69,107 +73,26 @@ creed:
         └──────────┬──────────┘
              ┌─────┴─────┐
         ┌────┴────┐  ┌───┴─────┐
-        │ GATEWAY │  │   AP    │
-        │ .1.1    │  │  Wi-Fi  │
+        │ GATEWAY │  │  Wi-Fi  │
+        │ .1.1    │  │    AP   │
         └────┬────┘  └───┬─────┘
        ┌─────┼───────────┼─────┐
    ┌───┴──┐ ┌┴────┐ ┌────┴─┐ ┌─┴───┐
-   │  PC  │ │PHONE│ │  NAS │ │  PC │
-   │ .100 │ │.104 │ │ .10  │ │ .50 │
+   │  PC  │ │PHONE│ │  NAS │ │ PRN │
+   │ .100 │ │ .104│ │  .10 │ │ .50 │
    └──────┘ └─────┘ └──────┘ └─────┘
 
-  ┌─[ SCAN STATE ]─┐
-  │ /24     SWEEP  │
-  │ ARP     DONE   │
-  │ PORTS   READY  │
-  │ EXPORT  ARMED  │
-  └────────────────┘
+  ┌─[ SCAN STATE ]─────────┐
+  │ /24    SWEEP    DONE   │
+  │ ARP    CACHE    PARSED │
+  │ PORTS  ENGINE   READY  │
+  │ EXPORT ARMED     ✓     │
+  └────────────────────────┘
 ```
 
 </td>
 </tr>
 </table>
-
----
-
-<div align="center">
-
-### 📡 ⟨ RUN IT — ONE FILE, NO C2 ⟩
-
-</div>
-
-```bash
-# ── The complete source is a single file ──
-# ── copy netscope_x.py → install rich → run ──
-
-        ╔══════════════════════════════════════════════╗
-        ║                                              ║
-        ║   📡 NETSCOPE X — ONE FILE. NO C2. NO BLOAT  ║
-        ║                                              ║
-        ║   🐍 Python 3.8+   ·   📦 rich only          ║
-        ║                                              ║
-        ║   Run:  py netscope_x.py                     ║
-        ╚══════════════════════════════════════════════╝
-
-# → https://github.com/your-username/netscope-x
-```
-
-> 🇮🇷 ابزار کشف دستگاههای شبکه محلی + داشبورد پیشرفته ترمینالی — فقط برای **شبکههای خودت** و محیطهای دارای مجوز.
-> ⚠️ اسکن شبکه بدون اجازه غیرقانونی است؛ مسئولیت استفاده با خودته.
-
----
-
-<div align="center">
-
-### ⟨ WEAPONS ⟩
-
-<img src="https://img.shields.io/badge/PYTHON-7D4698?style=for-the-badge&logo=python&logoColor=00E5FF&labelColor=0d0d0d" />
-<img src="https://img.shields.io/badge/WINDOWS-15E0C5?style=for-the-badge&logo=windows&logoColor=00E5FF&labelColor=0d0d0d" />
-<img src="https://img.shields.io/badge/RICH_TERMINAL-00E5FF?style=for-the-badge&logo=python&logoColor=black&labelColor=0d0d0d" />
-<img src="https://img.shields.io/badge/TCP_CONNECT-2CA5E0?style=for-the-badge&logo=socket.io&logoColor=00E5FF&labelColor=0d0d0d" />
-<img src="https://img.shields.io/badge/JSON_REPORT-003B57?style=for-the-badge&logo=json&logoColor=00E5FF&labelColor=0d0d0d" />
-<img src="https://img.shields.io/badge/PYINSTALLER-3776AB?style=for-the-badge&logo=python&logoColor=00E5FF&labelColor=0d0d0d" />
-
-</div>
-
-<table align="center">
-<tr>
-<td valign="top" width="50%">
-
-```
-[ DASHBOARD — INTERFACE ]
-────────────────────────────
- ▰▰▰▰▰▰▰▰  Live Status Panel
- ▰▰▰▰▰▰▰▰  Device Inventory Table
- ▰▰▰▰▰▰▰▰  Port Results Panel
- ▰▰▰▰▰▰▰▰  Device Intelligence
- ▰▰▰▰▰▰▰▰  Control Center Menu
- ▰▰▰▰▰▰▰▰  One-Key JSON Export
-```
-
-</td>
-<td valign="top" width="50%">
-
-```
-[ SCAN ENGINE — CORE ]
-────────────────────────────
- ▰▰▰▰▰▰▰▰  ARP Cache Parse
- ▰▰▰▰▰▰▰▰  ICMP Reachability
- ▰▰▰▰▰▰▰▰  64-Thread Concurrent Sweep
- ▰▰▰▰▰▰▰▰  TCP Connect Port Scan
- ▰▰▰▰▰▰▰▰  OUI Vendor Map
- ▰▰▰▰▰▰▰▰  Reverse-DNS Hostname Hints
-```
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,windows,linux,bash,git,powershell,json,vim&theme=dark&perline=8" />
-
-</div>
 
 ---
 
@@ -181,14 +104,79 @@ creed:
 
 | ⟦ capability ⟧ | ⟦ details ⟧ |
 |:--|:--|
-| 🖥 **Live Discovery** | ICMP reachability sweep on the whole local /24 with 64 concurrent workers |
-| 📡 **ARP Intelligence** | parses the OS ARP cache (`arp -a`) for MAC addresses → live device map |
-| 🏭 **Vendor Fingerprint** | OUI lookup table (Apple · Samsung · Xiaomi · Huawei · TP-Link · VMware · Raspberry Pi…) |
-| 🚪 **Port Engine** | conservative TCP connect scan of 28 common services (SSH, HTTP, SMB, RDP, VNC…) |
-| 🧭 **Device Classification** | estimates device type from vendor + hostname (Android, iOS, Printer, Router, SBC…) |
-| 📊 **Live Dashboard** | Rich-powered TUI: network status, device inventory, ports, details, control center |
-| ⏱ **Latency Meter** | per-device ping latency in milliseconds, displayed live |
+| 🖥 **Live Discovery** | full local /24 ICMP reachability sweep with 64 concurrent workers |
+| 📡 **ARP Intelligence** | parses the OS ARP cache (`arp -a`) to map IPs → MACs instantly |
+| 🏭 **Vendor Fingerprint** | OUI lookup table — Apple · Samsung · Xiaomi · Huawei · TP-Link · Cisco · Intel · VMware · VirtualBox · Raspberry Pi … |
+| 🚪 **Port Engine** | conservative TCP connect scan of 26 common ports (SSH, HTTP, SMB, RDP, VNC, MQTT, ADB …) with 280 ms per-port timeout |
+| 🧭 **Device Classification** | estimates device type from vendor + hostname: iOS, Android, Windows PC, macOS, Printer, Network device, Linux SBC |
+| ⏱ **Latency Meter** | per-device ping RTT in milliseconds, refreshed every scan |
+| 📊 **Live Dashboard** | Rich TUI: network status · device inventory · port results · device intelligence · control center |
 | 📤 **JSON Export** | one-key full report → `netscope_report_<timestamp>.json` |
+| 🔁 **Auto-Refresh** | re-scan anytime from the menu; all results persist in the session |
+| 🪶 **Zero-Intrusion** | no authentication, no exploitation, no packet capture, no file access, no credential collection |
+
+---
+
+<div align="center">
+
+### ⟨ ./dashboard_preview --screenshot ⟩
+
+</div>
+
+> No screenshots needed — the whole UI is ASCII. This is exactly what you get:
+
+```text
+┌─ NETWORK STATUS ──────────────────────────────────────────────────┐
+│ INTERFACE    Wi-Fi / active IPv4                                  │
+│ LOCAL IP     192.168.1.100                                        │
+│ GATEWAY      192.168.1.1                                          │
+│ NETWORK      192.168.1.0/24                                       │
+│ DEVICES      14                                                   │
+│ LAST SCAN    15:30:42                                             │
+└───────────────────────────────────────────────────────────────────┘
+┌─ LIVE DEVICE INVENTORY ──────────────────────────────────────────┐
+│ #  STATUS    IP             MAC           VENDOR    TYPE          │
+│ 1  ● ONLINE  192.168.1.1    D8:BB:2C:..   Samsung   Network device│
+│ 2  ● ONLINE  192.168.1.100  3C:5A:37:..   Google    THIS PC       │
+│ 3  ● ONLINE  192.168.1.104  F4:F5:D8:..   Apple     iOS / Apple   │
+│ 4  ● ONLINE  192.168.1.105  AC:84:C6:..   Xiaomi    Android       │
+│ 5  ● ONLINE  192.168.1.50   B8:27:EB:..   Raspberry Linux SBC     │
+└───────────────────────────────────────────────────────────────────┘
+┌─ CONTROL CENTER ─────────────────────────────────────────────────┐
+│ [1] Discover   [2] Select/Scan   [3] Details                     │
+│ [4] Refresh    [5] Export JSON   [Q] Quit                        │
+└───────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+<div align="center">
+
+### ⟨ ./quick_start --guide ⟩
+
+</div>
+
+```bash
+# ── 1) Install the only dependency ──────────────────────────
+pip install rich
+
+# ── 2) Run ──────────────────────────────────────────────────
+python netscope_x.py          # Windows
+python3 netscope_x.py         # Linux / macOS
+
+# ── 3) Optional: standalone .exe with PyInstaller ──────────
+pip install pyinstaller
+pyinstaller --onefile --console --name netscope_x netscope_x.py
+```
+
+```bash
+# ── Typical workflow ────────────────────────────────────────
+# 1. launch            → banner + authorized-use notice
+# 2. auto-sweep /24    → ARP + ICMP, devices appear live
+# 3. [2] select device → TCP port scan (26 common ports)
+# 4. [3] details       → vendor, hostname, latency, ports
+# 5. [5] export        → full JSON report to disk
+```
 
 ---
 
@@ -198,63 +186,41 @@ creed:
 
 </div>
 
-> ترمینال را اجرا کن و از منوی Control Center استفاده کن — `py netscope_x.py`
+> Run the tool and use the Control Center menu — `py netscope_x.py`
 
 | key | action |
 |:--|:--|
-| `1` | discovery — اجرای اسکن کامل /24 |
-| `2` | select/scan — انتخاب دستگاه + اسکن پورتهای مشترک |
-| `3` | details — اطلاعات کامل دستگاه |
-| `4` | refresh — اسکن مجدد |
-| `5` | export — خروجی JSON از کل گزارش |
-| `Q` | quit — خروج امن |
+| `1` | **Discover** — run a full /24 sweep (ARP + ICMP) |
+| `2` | **Select/Scan** — pick a device, then TCP-scan its common ports |
+| `3` | **Details** — full intelligence panel for any device |
+| `4` | **Refresh** — re-run the whole discovery |
+| `5` | **Export** — dump everything to `netscope_report_<timestamp>.json` |
+| `Q` | **Quit** — clean exit |
 
 ---
 
 <div align="center">
 
-### ⟨ ./setup --guide ⟩
+### ⟨ ./how_it_works --pipeline ⟩
 
 </div>
 
-```bash
-# ── 1) Install requirements ──────────────────────────────
-pip install rich
-
-# ── 2) Run ──────────────────────────────────────────────
-py netscope_x.py          # windows
-python3 netscope_x.py     # linux / macos
-
-# ── 3) Optional: standalone .exe with PyInstaller ───────
-pip install pyinstaller
-pyinstaller --onefile --console --name netscope_x netscope_x.py
+```text
+┌──────────┐   ┌──────────────┐   ┌──────────────┐   ┌─────────────┐
+│  arp -a  │──►│  MAC → OUI   │──►│  classify    │──►│  dashboard  │
+└──────────┘   └──────────────┘   └──────────────┘   └─────────────┘
+┌──────────┐   ┌──────────────┐   ┌──────────────┐   ┌─────────────┐
+│ ICMP 64x │──►│  alive hosts │──►│  reverse DNS │   │  JSON out   │
+└──────────┘   └──────────────┘   └──────────────┘   └─────────────┘
 ```
 
-```bash
-# ── Typical workflow ────────────────────────────────────
-# 1. launch            → banner + authorized-use notice
-# 2. auto-sweep /24    → ARP + ICMP, devices appear live
-# 3. [2] select device → TCP port scan (28 common ports)
-# 4. [3] details       → vendor, hostname, latency, ports
-# 5. [5] export        → full JSON report to disk
-```
-
----
-
-<div align="center">
-
-```diff
-@@ ./usage_policy.sh @@
-
-+ کنترل شبکههایی که مال خودته یا مجوز تستشون رو داری
-+ شناسایی دستگاهها، پیدا کردن سرویسهای باز و بستن ضعفها
-+ خروجی JSON تمیز برای مستندسازی
-- اسکن شبکههای بدون اجازه
-- دست زدن به زیرساخت اشخاص ثالث خارج از scope
-- فراموش کردن اینکه اسکن پورت ردپا داره — توی scope بمون
-```
-
-</div>
+1. **Parse ARP cache** — reads the OS ARP table for instant IP ↔ MAC mapping (passive, no packets sent).
+2. **ICMP sweep** — pings every host in the /24 with 64 workers; only reachable hosts move forward.
+3. **Reverse DNS** — asks the resolver for hostname hints (only where available).
+4. **OUI lookup** — extracts the first 6 hex digits of the MAC and looks up the manufacturer.
+5. **Classify** — combines vendor + hostname heuristics to guess the device type.
+6. **Port engine** *(on demand)* — TCP connect scan of 26 common ports, 64 workers, 280 ms timeout.
+7. **Export** — serializes the full session to a timestamped JSON file.
 
 ---
 
@@ -266,21 +232,89 @@ pyinstaller --onefile --console --name netscope_x netscope_x.py
 
 | ⟦ module ⟧ | ⟦ delivers ⟧ |
 |:--|:--|
-| `discovery engine` | ARP cache parse + ICMP sweep + latency measurement |
-| `port engine` | 28 common TCP services · 64-thread connect scan |
+| `discovery engine` | ARP cache parse + ICMP reachability sweep + latency measurement |
+| `port engine` | 26 common TCP services · 64-thread connect scan |
 | `vendor engine` | OUI fingerprint database → manufacturer lookup |
-| `classifier` | device type estimation (vendor + hostname heuristics) |
-| `dashboard` | Rich panels: status · inventory · ports · intelligence |
+| `classifier` | device-type estimation from vendor + hostname |
+| `dashboard` | Rich panels: network status · inventory · ports · intelligence · control center |
 | `exporter` | timestamped JSON report (`netscope_report_*.json`) |
 
 ---
 
 <div align="center">
 
-### ⟨ ./system_monitor ⟩
+### ⟨ ./report --sample.json ⟩
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&hide_title=true&theme=chartreuse-dark&bg_color=0D0D0D&icon_color=00E5FF&text_color=AAAAAA&border_color=00E5FF&include_all_commits=true" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=dark&background=0D0D0D&ring=00E5FF&fire=FF0000&currStreakLabel=00E5FF&sideNums=FFFFFF&sideLabels=AAAAAA&dates=555555&border=00E5FF" />
+</div>
+
+```json
+{
+  "tool": "NETSCOPE X",
+  "version": "2.0",
+  "timestamp": "2026-08-12T15:30:42",
+  "local_ip": "192.168.1.100",
+  "gateway": "192.168.1.1",
+  "network": "192.168.1.0/24",
+  "devices": [
+    {
+      "ip": "192.168.1.1",
+      "mac": "D8:BB:2C:11:22:33",
+      "vendor": "Samsung",
+      "hostname": "gateway.home",
+      "kind": "Network device",
+      "role": "GATEWAY",
+      "status": "ONLINE",
+      "ports": [80, 443],
+      "services": ["80/HTTP", "443/HTTPS"],
+      "latency_ms": 1.2
+    },
+    {
+      "ip": "192.168.1.104",
+      "mac": "F4:F5:D8:AA:BB:CC",
+      "vendor": "Apple",
+      "hostname": "iphone.local",
+      "kind": "iOS / Apple",
+      "role": "HOST",
+      "status": "ONLINE",
+      "ports": [],
+      "services": [],
+      "latency_ms": 8.7
+    }
+  ]
+}
+```
+
+---
+
+<div align="center">
+
+### ⟨ ./security --notes ⟩
+
+</div>
+
+| ⟦ aspect ⟧ | ⟦ detail ⟧ |
+|:--|:--|
+| 🕊 **Passive by default** | ARP cache reading sends zero packets; the sweep uses only standard ICMP echo |
+| 🚪 **Connect scan only** | plain TCP `connect()` — no SYN flood, no fragmentation, no evasion |
+| 🎯 **/24 only** | the tool refuses to leave the local IPv4 /24 |
+| 🧊 **No auth / no exploit** | no credentials, no payloads, no code execution on targets |
+| ⚠️ **Known limits** | ARP cache may be incomplete; some hosts drop ICMP; OUI map covers 17 vendors; hostnames need working reverse DNS |
+| 📝 **Traces** | port scans are visible in target logs — stay inside your authorized scope |
+
+---
+
+<div align="center">
+
+```diff
+@@ ./usage_policy.sh @@
+
++ scan networks you own or are explicitly authorized to test
++ identify open services and close misconfigurations
++ export clean JSON reports for documentation and audits
+- scan networks without permission
+- touch third-party infrastructure outside your scope
+- forget that port scans leave traces — stay in scope
+```
 
 </div>
 
@@ -288,4 +322,66 @@ pyinstaller --onefile --console --name netscope_x netscope_x.py
 
 <div align="center">
 
+### ⟨ ./project --tree ⟩
+
+</div>
+
+```text
+netscope-x/
+├── netscope_x.py            # the entire tool — single file
+├── README.md                # you are here
+└── netscope_report_*.json   # generated scan reports (runtime)
+```
+
+---
+
+<div align="center">
+
+### ⟨ ./contributing --guide ⟩
+
+</div>
+
+PRs, bug reports and ideas are welcome. Keep the single-file spirit alive:
+
+- minimal dependencies — Rich is the only requirement
+- conservative, non-intrusive scanning only
+- Windows-first with graceful fallbacks on Linux/macOS
+- document every new feature in the README
+
+---
+
+<div align="center">
+
 ### ⟨ ./connect --all ⟩
+
+</div>
+
+<div align="center">
+
+<a href="https://t.me/your_handle"><img src="https://img.shields.io/badge/TELEGRAM-00E5FF?style=for-the-badge&logo=telegram&logoColor=black&label=CHANNEL&labelColor=0D0D0D" /></a>
+<a href="https://github.com/your-username"><img src="https://img.shields.io/badge/GITHUB-0D0D0D?style=for-the-badge&logo=github&logoColor=00E5FF" /></a>
+<a href="https://www.youtube.com/@your-channel"><img src="https://img.shields.io/badge/YOUTUBE-0D0D0D?style=for-the-badge&logo=youtube&logoColor=FF0000" /></a>
+<a href="https://www.instagram.com/your_handle/"><img src="https://img.shields.io/badge/INSTAGRAM-0D0D0D?style=for-the-badge&logo=instagram&logoColor=E4405F" /></a>
+
+</div>
+
+<sub align="center">Replace the placeholder links above with your own profiles before publishing.</sub>
+
+---
+
+<details>
+<summary><b>📦 GitHub repository setup — copy & paste</b></summary>
+
+| field | value |
+|:--|:--|
+| **Repository name** | `NETSCOPE-X` |
+| **Description** | Advanced terminal LAN discovery dashboard — ARP + ICMP /24 sweep, vendor fingerprinting, TCP port scan, live Rich TUI. Authorized networks only. |
+| **Topics** | `python` · `network-scanner` · `lan-discovery` · `arp` · `network-diagnostics` · `rich-terminal` · `cybersecurity` · `port-scan` · `recon` · `tui` |
+
+</details>
+
+<div align="center">
+
+<sub>NETSCOPE X v2.0 — MIT License · Use responsibly, on networks you own or are authorized to test.</sub>
+
+</div>
